@@ -1,5 +1,5 @@
 // VARIABLES
-
+var themeSong = new Audio("./assets/Spiderman.mp3");
 // FUNCTIONS
 
 $(document).ready(function(){
@@ -30,6 +30,7 @@ function get_articles(search_term, how_many, start_year, end_year){
 
 $("#search_button").on("click",function(){
 
+    themeSong.play();
     var searchTerm = $("#formGroupInput1").val();
     var how_many = $("#formGroupSelect").val();
     var start_year = $("#formGroupInput2").val();
