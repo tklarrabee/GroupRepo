@@ -5,6 +5,13 @@
     background-size: cover;
     font-family: 'anton', sans-serif; color: rgb(205, 205, 206);
 }
+<<<<<<< HEAD
 .clear {
 display: inline-block;
+=======
+
+body {
+    background-image: url(https://media.gettyimages.com/vectors/newspaper-background-vector-id852825734);
+    background-size: auto;
+>>>>>>> 36cc5150c8b89f0bde3b9557883c1f1662bad2b3
 }
