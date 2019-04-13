@@ -10,7 +10,7 @@ function get_articles(search_term, how_many, start_year, end_year){
 
     
     $.ajax({
-        url: "https://api.nytimes.com/svc/search/v2/articlesearch.json?q="+search_term+"&?end_date="+end_year+"&?begin_date="+start_year+"&api-key=qLYGpSGjKjv43FYGw3Uvv2prfXcCzCU7",
+        url: "https://api.nytimes.com/svc/search/v2/articlesearch.json?q="+search_term+"&fq=pub_year:("+start_year+")&api-key=qLYGpSGjKjv43FYGw3Uvv2prfXcCzCU7",
         method: "GET"
     }).then(function(searchTerm){
         // console.log(searchTerm.response.docs);
