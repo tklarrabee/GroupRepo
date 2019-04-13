@@ -5,3 +5,6 @@
     background-size: cover;
     font-family: 'anton', sans-serif; color: rgb(205, 205, 206);
 }
+.clear {
+display: inline-block;
+}
